@@ -12,3 +12,30 @@
 /dependencies
 /mgmt_core_wrapper
 /logs
+# OpenLane generated runs
+/openlane/*/runs/
+
+# Simulation and synthesis artifacts
+*.vvp
+*.fst
+*.log
+*.jou
+*.wdb
+*.pb
+*.str
+*.rpt
+
+# Local backups
+*.bak
+*.bak2
+*.before_*.json
+*.v.bak
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large generated hardware artifacts
+*.odb
+*.gds
+*.def
